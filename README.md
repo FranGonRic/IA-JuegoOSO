@@ -4,12 +4,12 @@
 ## Table of contents
 * [Información General](#información-general)
   * [Juego OSO](#juego-oso)
-  * [Prolog](#prolog)
-* [Capturas de Pantalla](#capturas-de-pantalla)
+  * [Minimax](#minimax)
 * [Technologies](#technologies)
-* [Configuración](#configuración)
+* [Instalación](#instalación)
+* [Uso](#uso)
 * [Features](#features)
-* [Status](#status)
+* [Estado del proyecto](#estado-del-proyecto)
 * [Inspiration](#inspiration)
 * [Contact](#contact)
 
@@ -19,23 +19,21 @@ El proyecto de este repositorio aplica minimax para jugar una ronda de OSO. El j
 ### Juego OSO
 OSO es un juego donde el objetivo es formar la palabra OSO en un tablero cuadrado (tambien conocido como SOS en inglés). Se juega de dos jugadores y cada uno puede poner la letra "O" o "S" en una posición, que no ya tiene una letra asignada, durante su turno. Si la letra que se puso forma la palabra OSO vertical, horizontal o diagonalmente entonces el jugador gana un punto por cada instancia de la palabra formada. 
 
-### Prolog
-TO BE FILLED OUT
+### Minimax
+Minimax es un algoritmo para determinar la mejor acción considerando los movimientos futuros que pueden hacer los dos jugadores. El algoritmo minimax asigna un valor a cada movimientoº . Un valor bajo significa conveniente para el oponente y vice versa. En base a esos números determina los siguientes N movimientos posibles y, pensando que los jugadores siempre hacen el mejor movimiento posible, determina la mejor acción que puede tomar (la que tiene el mejor valor). El siguiente diagrama demuestra cómo funciona el algoritmo minimax en un juego de gato.
 
-## Capturas de Pantalla
-
+DIAGRAMA DE GATO
 
 ## Technologies
 * Tech 1 - version 1.0
 * Tech 2 - version 2.0
 * Tech 3 - version 3.0
 
-## Configuración
+## Instalación
 Describe how to install / setup your local environement / add link to demo version.
 
-## Code Examples
-Show examples of usage:
-`put-your-code-here`
+## Uso
+Describe how to install / setup your local environement / add link to demo version.
 
 ## Features
 List of features ready and TODOs for future development
@@ -47,7 +45,7 @@ To-do list:
 * Wow improvement to be done 1
 * Wow improvement to be done 2
 
-## Status
+## Estado del proyecto
 Project is: _in progress_, _finished_, _no longer continue_ and why?
 
 ## Inspiration
