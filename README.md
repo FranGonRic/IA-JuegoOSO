@@ -3,8 +3,8 @@
 
 ## Table of contents
 * [Información General](#información-general)
-..* [Prolog](#prolog)
-..* [Juego OSO](#oso)
+* * [Juego OSO](#juego-oso)
+* * [Prolog](#prolog)
 * [Capturas de Pantalla](#capturas-de-pantalla)
 * [Technologies](#technologies)
 * [Configuración](#configuración)
@@ -14,11 +14,13 @@
 * [Contact](#contact)
 
 ## Información General
-Add more general information about project. What the purpose of the project is? Motivation?
-
-### Prolog
+El proyecto de este repositorio aplica minimax para jugar una ronda de OSO. El juego se juega entre el usuario y la computadora. La computadora determina sus movimentos basados en el algoritmo minimax. 
 
 ### Juego OSO
+OSO es un juego donde el objetivo es formar la palabra OSO en un tablero cuadrado (tambien conocido como SOS en inglés). Se juega de dos jugadores y cada uno puede poner la letra "O" o "S" en una posición, que no ya tiene una letra asignada, durante su turno. Si la letra que se puso forma la palabra OSO vertical, horizontal o diagonalmente entonces el jugador gana un punto por cada instancia de la palabra formada. 
+
+### Prolog
+TO BE FILLED OUT
 
 ## Capturas de Pantalla
 
