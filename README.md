@@ -3,8 +3,8 @@
 
 ## Table of contents
 * [Información General](#información-general)
-* * [Juego OSO](#juego-oso)
-* * [Prolog](#prolog)
+  * [Juego OSO](#juego-oso)
+  * [Prolog](#prolog)
 * [Capturas de Pantalla](#capturas-de-pantalla)
 * [Technologies](#technologies)
 * [Configuración](#configuración)
