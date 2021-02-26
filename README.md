@@ -11,8 +11,7 @@
   * [Jugar contra la computadora](#jugar-contra-la-computadora)
   * [Otros métodos de interés](#otros-métodos-de-interés)
 * [Estado del proyecto](#estado-del-proyecto)
-* [Inspiration](#inspiration)
-* [Contact](#contact)
+* [Contacto](#contacto)
 
 ## Información General
 El proyecto de este repositorio aplica minimax para jugar una ronda de OSO. El juego se juega entre el usuario y la computadora. La computadora determina sus movimentos basados en el algoritmo minimax. 
@@ -59,8 +58,7 @@ Imagen 1: Tablero 5x5
 Al final del juego hay que terminar el programa. El proyecto no sabe cuándo acaba el juego y por eso hay que terminar el proceso manualmente. Esto se puede hacer pulsando `CTRL+C` -> `A` -> `ENTER`.
 
 ## Estado del proyecto
-El project está: _finished_ pero hay unas mejoras que se puden hacer al código.
+El project está: _Terminado_ pero hay unas mejoras que se puden hacer al código.
 
 ## Contacto
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
 Creado por [@FranGonRic](https://github.com/FranGonRic). Si tienen más preguntas me puden contactar en mi correo frangonzarico@gmail.com
