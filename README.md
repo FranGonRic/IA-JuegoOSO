@@ -9,6 +9,8 @@
 * [Instalación](#instalación)
 * [Uso](#uso)
   * [Ejecución del programa y sus alternativas](#ejecución-del-programa-y-sus-alternativas)
+  * [Jugar contra la computadora](#jugar-contra-la-computadora)
+  * [Otros métodos de interés](#otros-métodos-de-interés)
 * [Features](#features)
 * [Estado del proyecto](#estado-del-proyecto)
 * [Inspiration](#inspiration)
@@ -42,28 +44,31 @@ El programa tiene muchos métodos pero aquí solo vamos a ver los principales pa
 
 ### Ejecución del programa y sus alternativas
 
-`gameOSO().` Este comando se utiliza para iniciar el juego con un tablero de 5x5 con una profundidad de 3 para el algoritmo.
+* `gameOSO().` Este comando se utiliza para iniciar el juego con un tablero de 5x5 con una profundidad de 3 para el algoritmo.
 
-`gameOSO(D).` Este comando se utiliza para iniciar el juego con un tablero de 5x5 con una profundidad de D para el algoritmo.
+* `gameOSO(D).` Este comando se utiliza para iniciar el juego con un tablero de 5x5 con una profundidad de D para el algoritmo.
 
-`gameOSOred().` Este comando se utiliza para iniciar el juego con un tablero de 3x3 con una profundidad de 3 para el algoritmo.
+* `gameOSOred().` Este comando se utiliza para iniciar el juego con un tablero de 3x3 con una profundidad de 3 para el algoritmo.
 
-`gameOSOred(D).` Este comando se utiliza para iniciar el juego con un tablero de 3x3 con el algoritmo viendo D movimientos al futuro.
+* `gameOSOred(D).` Este comando se utiliza para iniciar el juego con un tablero de 3x3 con el algoritmo viendo D movimientos al futuro.
 
-`gameOSOvar(D,N).` Este comando se utiliza para iniciar el juego con un tablero de NxN con el algoritmo viendo D movimientos al futuro.
+* `gameOSOvar(D,N).` Este comando se utiliza para iniciar el juego con un tablero de NxN con el algoritmo viendo D movimientos al futuro.
 
-## Features
-List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
+### Jugar contra la computadora
+Después de ejecutar el comando de inicio el programa va a preguntar quién empieza el juego. Aqui simplemente hay que responder con `1.` o `2.`. Ahora que ya empieza el juego hay que mencionar que la computadora se puede tardar un rato en realizar su movimiento, dependiendo de cómo se inicializó el juego. Esto es por la alta cantidad de futuros que esta considerando en sus cálculos. 
 
-To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+Para realizar un movimiento la computadora va a pedir por una lista de la forma `[X,Y,L].` donde X representa la *coordenada x*, Y la *coordenada y* y L la *letra* que se quiere meter. Es imporante notar que las letras deben ser minúsculas porque las mayúsculas representan variables. La imagen NUMIMG presenta cómo hay que ver las coordenadas
+
+IMAGEN
+
+Por ejemplo, si se quiere poner la letra "o" en la posición con el punto rojo hay que ingresar `[1,1,o]`
+
+### Otros métodos de interés
+
+
 
 ## Estado del proyecto
-Project is: _in progress_, _finished_, _no longer continue_ and why?
+El project está: _finished_ pero hay unas mejoras que se puden hacer al código.
 
 ## Inspiration
 Add here credits. Project inspired by..., based on...
