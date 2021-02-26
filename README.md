@@ -57,11 +57,13 @@ El programa tiene muchos métodos pero aquí solo vamos a ver los principales pa
 ### Jugar contra la computadora
 Después de ejecutar el comando de inicio el programa va a preguntar quién empieza el juego. Aqui simplemente hay que responder con `1.` o `2.`. Ahora que ya empieza el juego hay que mencionar que la computadora se puede tardar un rato en realizar su movimiento, dependiendo de cómo se inicializó el juego. Esto es por la alta cantidad de futuros que esta considerando en sus cálculos. 
 
-Para realizar un movimiento la computadora va a pedir por una lista de la forma `[X,Y,L].` donde X representa la *coordenada x*, Y la *coordenada y* y L la *letra* que se quiere meter. Es imporante notar que las letras deben ser minúsculas porque las mayúsculas representan variables. La imagen 1 presenta cómo hay que ver las coordenadas. Por ejemplo, si se quiere poner la letra "o" en la posición con el punto rojo hay que ingresar `[1,1,o]`.
+Para realizar un movimiento la computadora va a pedir por una lista de la forma `[X,Y,L].` donde X representa la *coordenada x*, Y la *coordenada y* y L la *letra* que se quiere meter. Es imporante notar que las letras deben ser minúsculas porque las mayúsculas representan variables. La imagen 1 presenta cómo hay que ver las coordenadas. Por ejemplo, si se quiere poner la letra "o" en la posición con el punto rojo hay que ingresar `[3,2,o]`.
 
 Imagen 1: Tablero 5x5
 
 ![Tablero 5x5](img/imgTablero5x5.png)
+
+Al final del juego hay que terminar el programa. El proyecto no sabe cuándo acaba el juego y por eso hay que terminar el proceso manualmente. Esto se puede hacer precionando `CTRL+C` -> `A` -> `ENTER`.
 
 
 ### Otros métodos de interés
