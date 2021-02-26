@@ -13,22 +13,22 @@
 * [Contacto](#contacto)
 
 ## Información General
-El proyecto de este repositorio aplica minimax para jugar una ronda de OSO. El juego se juega entre el usuario y la computadora. La computadora determina sus movimientos basados en el algoritmo minimax. 
+El proyecto de este repositorio aplica minimax para jugar una ronda de OSO. El juego se lleva a cabo entre el usuario y la computadora. La máquina determina sus movimientos basados en el algoritmo minimax. 
 
 ### Juego OSO
-OSO es un juego donde el objetivo es formar la palabra OSO en un tablero cuadrado (también conocido como SOS en inglés). Se juega de dos jugadores y cada uno puede poner la letra "O" o "S" en una posición, que no ya tiene una letra asignada, durante su turno. Si la letra que se puso forma la palabra OSO vertical, horizontal o diagonalmente entonces el jugador gana un punto por cada instancia de la palabra formada. 
+OSO es un juego donde el objetivo es formar la palabra OSO en un tablero cuadrado (también conocido como SOS en inglés). Los jugadores son dos y cada uno puede poner la letra "O" o "S" en una posición, que no tenga una letra asignada, durante su turno. Si la letra que se puso forma la palabra OSO vertical, horizontal o diagonalmente, entonces el jugador gana un punto por cada instancia de la palabra formada. 
 
 ### Minimax
-Minimax es un algoritmo para determinar la mejor acción considerando los movimientos futuros que pueden hacer los dos jugadores. El algoritmo minimax asigna un valor a cada movimiento. Un valor bajo significa conveniente para el oponente y viceversa. En base a esos números encuentra los siguientes D movimientos posibles y, pensando que los jugadores siempre hacen el mejor movimiento posible, determina la mejor acción que puede tomar (la que tiene el mejor valor). El valor de D también se refiere a la profundidad. El Diagrama 1 demuestra cómo funciona el algoritmo minimax en un juego de gato.
+Minimax es un algoritmo para determinar la mejor acción considerando los movimientos futuros que pueden hacer los dos jugadores. El algoritmo minimax asigna un valor a cada movimiento, dependiendo si es una jugada buena o mala. En base a esos números encuentra los siguientes D movimientos posibles y, pensando que los jugadores siempre hacen el mejor movimiento posible, determina la mejor acción que puede tomar (la que tiene el mejor valor). El valor de D también se refiere a la profundidad. El Diagrama 1 demuestra cómo funciona el algoritmo minimax aplicado en un juego de gato.
 
 Diagrama 1: Ejemplo de Minimax (Gato)
 
 ![Diagrama Minimax Gato](img/gatoMinimax.png)
 
 ## Instalación
-Primero hay que descargar SWI-Prolog en la [página](https://www.swi-prolog.org/download/stable) de SWI-Prolog. También se puede correr en cualquier aplicación que soporta ejecución del lenguaje de programación Prolog. Aquí vamos a considerar que se está utilizando SWI-Prolog para correr el programa. Además, hay que descargar el archivo Proyecto2.pl en el directorio deseado.
+Primero hay que descargar SWI-Prolog en la [página](https://www.swi-prolog.org/download/stable) de SWI-Prolog. También se puede correr en cualquier aplicación que soporte ejecución del lenguaje de programación Prolog. Aquí vamos a considerar que se está utilizando SWI-Prolog para correr el programa. Además, hay que descargar el archivo `Proyecto2.pl`.
 
-Ya en la aplicación de SWI-Prolog para abrir el programa hay que seleccionar File -> Consult (ver Imagen 1) y en la ventana que se abre hay que encontrar y seleccionar el archivo Proyecto2.pl. Con eso se abrió el programa y en la siguiente sección puede ver cómo utilizarlo.
+Ya en la aplicación de SWI-Prolog, para abrir el programa, hay que seleccionar File -> Consult (ver Imagen 1) y en la ventana que se abre hay que encontrar y seleccionar el archivo `Proyecto2.pl`. De esta forma se abrió el programa y en la siguiente sección ([Uso](#uso)) se puede ver cómo utilizarlo.
 
 Imagen 1: Lugar para abrir el programa en SWI-Prolog
 
@@ -50,9 +50,9 @@ El programa tiene muchos métodos, pero aquí solo vamos a ver los principales p
 * `gameOSOvar(D,N).` Este comando se utiliza para iniciar el juego con un tablero de NxN con el algoritmo viendo D movimientos al futuro.
 
 ### Jugar contra la computadora
-Después de ejecutar el comando de inicio el programa va a preguntar quién empieza el juego. Aquí simplemente hay que responder con `1.` o `2.`. Ahora que ya empieza el juego hay que mencionar que la computadora se puede tardar un rato en realizar su movimiento, dependiendo de cómo se inicializó el juego. Esto es por la alta cantidad de futuros que está considerando en sus cálculos. 
+Después de ejecutar el comando de inicio el programa solicitará quién empieza el juego. Aquí simplemente hay que responder con `1.` o `2.`. Ahora que ya empezó el juego hay que mencionar que la computadora se puede tardar un rato en realizar su movimiento, dependiendo de cómo se inicializó el juego. Esto es por la alta cantidad de futuros movimientos que está considerando en sus cálculos. 
 
-Para realizar un movimiento la computadora va a pedir por una lista de la forma `[X,Y,L].` donde X representa la *coordenada x*, Y la *coordenada y* y L la *letra* que se quiere meter. Es importante notar que las letras deben ser minúsculas porque las mayúsculas representan variables. En la Imagen 2 se puede ver cómo hay que ver las coordenadas. Por ejemplo, si se quiere poner la letra "o" en la posición con el punto rojo hay que ingresar `[3,2,o]`.
+Para realizar un movimiento la computadora va a pedir por una lista de la forma `[X,Y,L].` donde X representa la ***coordenada x***, Y la ***coordenada y*** y L la ***letra*** que se quiere meter. Es importante notar que las letras deben ser minúsculas porque las mayúsculas representan variables. En la Imagen 2 se puede ver cómo hay que ver las coordenadas. Por ejemplo, si se quiere poner la letra "o" en la posición con el punto rojo hay que ingresar `[3,2,o]`.
 
 Imagen 2: Tablero 5x5
 
