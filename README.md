@@ -5,13 +5,11 @@
 * [Información General](#información-general)
   * [Juego OSO](#juego-oso)
   * [Minimax](#minimax)
-* [Technologies](#technologies)
 * [Instalación](#instalación)
 * [Uso](#uso)
   * [Ejecución del programa y sus alternativas](#ejecución-del-programa-y-sus-alternativas)
   * [Jugar contra la computadora](#jugar-contra-la-computadora)
   * [Otros métodos de interés](#otros-métodos-de-interés)
-* [Features](#features)
 * [Estado del proyecto](#estado-del-proyecto)
 * [Inspiration](#inspiration)
 * [Contact](#contact)
@@ -26,11 +24,6 @@ OSO es un juego donde el objetivo es formar la palabra OSO en un tablero cuadrad
 Minimax es un algoritmo para determinar la mejor acción considerando los movimientos futuros que pueden hacer los dos jugadores. El algoritmo minimax asigna un valor a cada movimientoº . Un valor bajo significa conveniente para el oponente y vice versa. En base a esos números encuentra los siguientes D movimientos posibles y, pensando que los jugadores siempre hacen el mejor movimiento posible, determina la mejor acción que puede tomar (la que tiene el mejor valor). El valor de D tambien se refiere a la profundidad. El siguiente diagrama demuestra cómo funciona el algoritmo minimax en un juego de gato.
 
 DIAGRAMA DE GATO
-
-## Technologies
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
 
 ## Instalación
 Primero hay que descargar SWI-Prolog en la [página](https://www.swi-prolog.org/download/stable) de SWI-Prolog. También se puede correr en cualquier aplicación que soporta ejecución del lenguaje de programación Prolog. Aquí vamos a considerar que se esta utilizando SWI-Prolog para correr el programa. Además, hay que descargar el archivo Proyecto2.pl en el directorio deseado.
@@ -63,18 +56,11 @@ Imagen 1: Tablero 5x5
 
 ![Tablero 5x5](img/imgTablero5x5.png)
 
-Al final del juego hay que terminar el programa. El proyecto no sabe cuándo acaba el juego y por eso hay que terminar el proceso manualmente. Esto se puede hacer precionando `CTRL+C` -> `A` -> `ENTER`.
-
-
-### Otros métodos de interés
-
-
+Al final del juego hay que terminar el programa. El proyecto no sabe cuándo acaba el juego y por eso hay que terminar el proceso manualmente. Esto se puede hacer pulsando `CTRL+C` -> `A` -> `ENTER`.
 
 ## Estado del proyecto
 El project está: _finished_ pero hay unas mejoras que se puden hacer al código.
 
-## Inspiration
-Add here credits. Project inspired by..., based on...
-
-## Contact
+## Contacto
 Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Creado por [@FranGonRic](https://github.com/FranGonRic). Si tienen más preguntas me puden contactar en mi correo frangonzarico@gmail.com
