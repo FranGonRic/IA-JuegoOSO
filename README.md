@@ -9,7 +9,6 @@
 * [Uso](#uso)
   * [Ejecución del programa y sus alternativas](#ejecución-del-programa-y-sus-alternativas)
   * [Jugar contra la computadora](#jugar-contra-la-computadora)
-  * [Otros métodos de interés](#otros-métodos-de-interés)
 * [Estado del proyecto](#estado-del-proyecto)
 * [Contacto](#contacto)
 
